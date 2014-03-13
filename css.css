@@ -1,0 +1,23 @@
+body, div {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+#quest-container {
+  margin: 0 auto;
+}
+
+.act {
+  width: 200px;
+  float: left;
+}
+
+.act > div {
+  background-color: transparent;
+  color: lightgrey;
+}
+
+.act > div.incomplete {
+  color: red;
+  font-weight: bold;
+}

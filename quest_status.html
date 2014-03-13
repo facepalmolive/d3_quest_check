@@ -1,0 +1,10 @@
+<div id="quest-container">
+  <h1>{{questStatus.heroInfo.name}}</h1>
+  <div ng-repeat="actId in questStatus.actIds" class='act'>
+    <h2>{{questStatus.actNames[actId]}}</h2>
+    <div ng-repeat="quest in questStatus.questNames[actId]"
+      ng-class="{incomplete: questStatus.questData[actId][quest]==false}">
+      {{quest}}
+    </div>
+  </div>
+</div>
