@@ -17,7 +17,7 @@ body, div {
   color: lightgrey;
 }
 
-.act > div.incomplete {
+.incomplete {
   color: red;
   font-weight: bold;
 }
