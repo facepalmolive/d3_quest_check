@@ -10,7 +10,9 @@ body, div {
 .act {
   width: 200px;
   float: left;
-  background-color: transparent;
+}
+
+.complete {
   color: lightgrey;
 }
 
