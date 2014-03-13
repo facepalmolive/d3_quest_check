@@ -10,9 +10,6 @@ body, div {
 .act {
   width: 200px;
   float: left;
-}
-
-.act > div {
   background-color: transparent;
   color: lightgrey;
 }
